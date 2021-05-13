@@ -1,0 +1,17 @@
+nav{
+  background-color: #fd7e14;
+  padding: 0px;
+}
+
+div{
+  height: 60px;
+}
+
+h3{
+  font-style: italic;
+  font-weight: bold;
+}
+
+a{
+  color: black;
+}

@@ -1,0 +1,19 @@
+<div id="contenedor">
+  <h1 style="text-align: center; margin-bottom: 50px">Novedades</h1>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4" *ngFor="let peliculas of pelicula,index as i" >
+        <img alt="Bootstrap Image Preview" [src]="peliculas.portada" />
+        <h2>
+          {{peliculas.titulo}}
+        </h2>
+        <p id="sinopsis"> {{peliculas.sinopsis}} </p>
+        <p>
+          <a class="btn" [routerLink]="['/Peliculas',i]" >Ver mas... »</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
