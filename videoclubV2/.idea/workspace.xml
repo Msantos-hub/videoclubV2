@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4fd270d1-5f99-4be7-960b-6f4e02791cf2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/node_modules/clone-response/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/clone-response/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/clone-response/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/clone-response/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/color-convert/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/color-convert/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/color-convert/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/color-convert/conversions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/color-convert/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/color-convert/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/color-convert/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/decompress-response/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/decompress-response/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/decompress-response/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/decompress-response/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/has-yarn/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/import-lazy/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/import-lazy/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/import-lazy/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/import-lazy/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/ini/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/ini/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/ini/ini.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/ini/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/is-fullwidth-code-point/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/is-fullwidth-code-point/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/is-fullwidth-code-point/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/is-fullwidth-code-point/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/is-installed-globally/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/is-installed-globally/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/is-installed-globally/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/is-installed-globally/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/is-installed-globally/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/is-yarn-global/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/is-yarn-global/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/is-yarn-global/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/is-yarn-global/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/is-yarn-global/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/lowercase-keys/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/lowercase-keys/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/make-dir/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/make-dir/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/make-dir/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/make-dir/node_modules/.bin/semver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/make-dir/node_modules/.bin/semver.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/make-dir/node_modules/.bin/semver.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/make-dir/node_modules/semver/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/make-dir/node_modules/semver/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/make-dir/node_modules/semver/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/make-dir/node_modules/semver/bin/semver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/make-dir/node_modules/semver/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/make-dir/node_modules/semver/range.bnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/make-dir/node_modules/semver/semver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/make-dir/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/make-dir/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/normalize-path/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/normalize-path/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/normalize-path/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/normalize-path/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/rc/LICENSE.APACHE2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/rc/LICENSE.BSD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/rc/LICENSE.MIT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/rc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/rc/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/rc/cli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/rc/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/rc/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/rc/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/rc/test/ini.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/rc/test/nested-env-vars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/rc/test/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/readdirp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/readdirp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/readdirp/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/readdirp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/readdirp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/ansi-regex/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/ansi-regex/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/ansi-regex/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/ansi-regex/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/ansi-regex/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/emoji-regex/LICENSE-MIT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/emoji-regex/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/emoji-regex/es2015/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/emoji-regex/es2015/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/emoji-regex/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/emoji-regex/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/emoji-regex/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/emoji-regex/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/is-fullwidth-code-point/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/is-fullwidth-code-point/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/is-fullwidth-code-point/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/is-fullwidth-code-point/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/is-fullwidth-code-point/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/strip-ansi/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/strip-ansi/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/strip-ansi/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/strip-ansi/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/node_modules/strip-ansi/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/string-width/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/supports-color/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/supports-color/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/supports-color/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/supports-color/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/supports-color/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/to-regex-range/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/to-regex-range/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/to-regex-range/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/to-regex-range/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/typedarray-to-buffer/.airtap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/typedarray-to-buffer/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/typedarray-to-buffer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/typedarray-to-buffer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/typedarray-to-buffer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/typedarray-to-buffer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/typedarray-to-buffer/test/basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/wrappy/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/wrappy/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/wrappy/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/wrappy/wrappy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/app/components/footer/footer.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/app/components/footer/footer.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/app/components/footer/footer.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/app/components/footer/footer.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/app/components/navbar/navbar.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/app/components/navbar/navbar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/app/components/navbar/navbar.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/app/components/navbar/navbar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miapp/tslint.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1sTaLGrlYfO8oB7aP08qOD9jcwJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fd270d1-5f99-4be7-960b-6f4e02791cf2" name="Default Changelist" comment="" />
+      <created>1620898975693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620898975693</updated>
+      <workItem from="1620898976771" duration="301000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620899081975">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1620899081975" />
+    <state x="593" y="327" key="Github.ShareDialog" timestamp="1620899078047">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="593" y="327" key="Github.ShareDialog/0.0.1440.860@0.0.1440.860" timestamp="1620899078047" />
+    <state x="221" y="74" key="SettingsEditor" timestamp="1620899279368">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="221" y="74" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1620899279368" />
+  </component>
+</project>
