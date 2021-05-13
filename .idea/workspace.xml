@@ -1,13 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="062a2ef0-9315-4f99-a603-f3c6eeca20c8" name="Default Changelist" comment="" />
+    <list default="true" id="062a2ef0-9315-4f99-a603-f3c6eeca20c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/app/components/footer/footer.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/app/components/footer/footer.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/app/components/footer/footer.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/app/components/footer/footer.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/app/components/navbar/navbar.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/app/components/navbar/navbar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/app/components/navbar/navbar.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/app/components/navbar/navbar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miapp/tslint.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1pTJUm3FQscXPUcj3eZ6MtyFBHF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -16,13 +96,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/videoclubV2" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="D:\ANGULAR\miapp\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\ANGULAR\videoclub\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ANGULAR\videoclub\src\app\components" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -34,10 +119,75 @@
       <updated>1615201164721</updated>
       <workItem from="1615201165749" duration="1567000" />
       <workItem from="1615202758370" duration="993000" />
+      <workItem from="1615204050166" duration="1147000" />
+      <workItem from="1615460566996" duration="3988000" />
+      <workItem from="1615466493386" duration="1519000" />
+      <workItem from="1615468071858" duration="270000" />
+      <workItem from="1615468433684" duration="215000" />
+      <workItem from="1615534384832" duration="2124000" />
+      <workItem from="1615805574227" duration="6064000" />
+      <workItem from="1619085051202" duration="370000" />
+      <workItem from="1619085673487" duration="7118000" />
+      <workItem from="1619689293237" duration="9487000" />
+      <workItem from="1620034992948" duration="6238000" />
+      <workItem from="1620295769246" duration="5486000" />
+      <workItem from="1620301314267" duration="2314000" />
+      <workItem from="1620898949532" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="266" y="170" key="#Inspections" timestamp="1615809074758">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="266" y="170" key="#Inspections/0.0.1280.984@0.0.1280.984" timestamp="1615809074758" />
+    <state x="473" y="204" key="FileChooserDialogImpl" timestamp="1620898972203">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="420" y="233" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1615534451938" />
+    <state x="473" y="204" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1620898972203" />
+    <state x="518" y="389" key="Github.ShareDialog" timestamp="1615204517391">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="518" y="389" key="Github.ShareDialog/0.0.1280.984@0.0.1280.984" timestamp="1615204517391" />
+    <state x="456" y="196" key="Github.UntrackedFilesDialog" timestamp="1615204524417">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="456" y="196" key="Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984" timestamp="1615204524417" />
+    <state x="521" y="212" key="RollbackChangesDialog" timestamp="1615204556359">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="521" y="212" key="RollbackChangesDialog/0.0.1280.984@0.0.1280.984" timestamp="1615204556359" />
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1615204542209">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1615204542209" />
+    <state x="457" y="405" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615463766783">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="457" y="405" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.984@0.0.1280.984" timestamp="1615463766783" />
+    <state x="248" y="94" width="1107" height="585" key="dock-window-1" timestamp="1620041276175">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="248" y="94" width="1107" height="585" key="dock-window-1/0.0.1440.860@0.0.1440.860" timestamp="1620041276175" />
+    <state x="470" y="282" key="svn.repositoryBrowser" timestamp="1615204131914">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="470" y="282" key="svn.repositoryBrowser/0.0.1280.984@0.0.1280.984" timestamp="1615204131914" />
   </component>
 </project>
