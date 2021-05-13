@@ -13,50 +13,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fd270d1-5f99-4be7-960b-6f4e02791cf2" name="Default Changelist" comment="videoclubV2.iml">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/app/components/footer/footer.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/app/components/footer/footer.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/app/components/footer/footer.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/app/components/navbar/navbar.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/app/components/navbar/navbar.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/app/components/navbar/navbar.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../miapp/tslint.json" beforeDir="false" />
+    <list default="true" id="4fd270d1-5f99-4be7-960b-6f4e02791cf2" name="Default Changelist" comment="videoclubV2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/controllers/pelisController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/controllers/pelisController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/controllers/pelisController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/pelisController.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -72,7 +44,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -83,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620898975693</updated>
-      <workItem from="1620898976771" duration="1101000" />
+      <workItem from="1620898976771" duration="8195000" />
     </task>
     <task id="LOCAL-00001" summary="videoclubV2.iml">
       <created>1620899501863</created>
@@ -92,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620899501863</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="videoclubV2">
+      <created>1620900328511</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620900328511</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +92,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="videoclubV2.iml" />
-    <option name="LAST_COMMIT_MESSAGE" value="videoclubV2.iml" />
+    <MESSAGE value="videoclubV2" />
+    <option name="LAST_COMMIT_MESSAGE" value="videoclubV2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620899081975">
@@ -134,14 +116,14 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="74" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1620899667093" />
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1620899508676">
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1620900338560">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1620899508676" />
-    <state x="537" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620899738228">
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1620900338560" />
+    <state x="537" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620900315728">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="537" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.860@0.0.1440.860" timestamp="1620899738228" />
+    <state x="537" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.860@0.0.1440.860" timestamp="1620900315728" />
     <state x="518" y="331" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1620899937988">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

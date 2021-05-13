@@ -38,10 +38,18 @@ class PelisController {
         });
     }
     delete(req, res) {
-        res.json({ text: 'eliminando pelicula ' + req.params.id });
+        return __awaiter(this, void 0, void 0, function* () {
+            const { id } = req.params;
+            yield database_1.default.query('DELETE FROM peliculas WHERE codPelicula = ?', [id]);
+            res.json({ message: 'pelicula eliminada' });
+        });
     }
     update(req, res) {
-        res.json({ text: 'modificando pelicula ' + req.params.id });
+        return __awaiter(this, void 0, void 0, function* () {
+            const { id } = req.params;
+            yield database_1.default.query('UPDATE peliculas set ? WHERE id=?', [req.body, id]);
+            res.json({ message: 'La pelicula fue actualizada' });
+        });
     }
 }
 const pelisController = new PelisController();

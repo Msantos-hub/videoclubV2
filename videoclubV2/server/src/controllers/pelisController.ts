@@ -23,12 +23,15 @@ class PelisController{
         res.json({message: 'pelicula guardada'});
     }
 
-    public delete (req:Request, res:Response){
-        res.json({text: 'eliminando pelicula ' + req.params.id});
+    public async delete (req:Request, res:Response){
+        const{id} = req.params;
+        await pool.query('DELETE FROM peliculas WHERE codPelicula = ?', [id])
+        res.json({message: 'pelicula eliminada'});
     }
-    public update (req:Request, res:Response){
-
-        res.json({text: 'modificando pelicula ' + req.params.id});
+    public async update (req:Request, res:Response){
+        const{id} = req.params;
+        await pool.query('UPDATE peliculas set ? WHERE id=?', [req.body, id]);
+        res.json({message: 'La pelicula fue actualizada'});
     }
 
 }
