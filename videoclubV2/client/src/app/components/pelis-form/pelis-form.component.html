@@ -1,1 +1,70 @@
-<p>pelis-form works!</p>
+<div class="col-md-4 offset-md-2">
+  <div class="card">
+    <div class="card-body">
+      <form>
+        <h4>Añadir Peliculas</h4>
+        <div class="form-group">
+          <input type="text" name="codPelicula" [(ngModel)]="peli.codPelicula" placeholder="codigo Pelicula" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="text" name="title"[(ngModel)]="peli.titulo"  placeholder="titulo" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="text" name="anio" [(ngModel)]="peli.anio" placeholder="año" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="text" name="duracion" [(ngModel)]="peli.duracion" placeholder="Duracion" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="text" name="pais" [(ngModel)]="peli.pais" placeholder="pais" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="text" name="director" [(ngModel)]="peli.director" placeholder="director" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="text" name="guion" [(ngModel)]="peli.guion" placeholder="guion" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="text" name="productor" [(ngModel)]="peli.productor" placeholder="productor" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="text" name="genero" [(ngModel)]="peli.genero" placeholder="genero" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="text" name="portada" [(ngModel)]="peli.portada" placeholder="portada" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="text" name="sinopsis" [(ngModel)]="peli.sinopsis" placeholder="sinopsis" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="text" name="fechaLanzamiento" [(ngModel)]="peli.fechaLanzamiento" placeholder="Fecha de lanzamiento" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="text" name="precioVenta" [(ngModel)]="peli.precioVenta" placeholder="Precio de venta" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="text" name="precioAlquiler" [(ngModel)]="peli.precioAlquiler" placeholder="Precio de alquiler" class="form-control">
+        </div>
+        <button class="btn btn-success btn-block" (click)="guardarPelicula">Guardar</button>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class=" card card-body text-center">
+      <img [src]="peli.portada == '' ? './assets/caratulas/NoImage.jpg': peli.portada" class="card-img-top">
+    <h3>{{peli.codPelicula}}. {{peli.titulo}}</h3>
+    <p>{{peli.anio}}</p>
+    <p>{{peli.duracion}}</p>
+    <p>{{peli.pais}}</p>
+    <p>{{peli.director}}</p>
+    <p>{{peli.guion}}</p>
+    <p>{{peli.productor}}</p>
+    <p>{{peli.sinopsis}}</p>
+    <p>{{peli.sinopsis}}</p>
+    <p>{{peli.sinopsis}}</p>
+    <p>{{peli.sinopsis}}</p>
+    <p>{{peli.sinopsis}}</p>
+    <p>{{peli.sinopsis}}</p>
+  </div>
+</div>

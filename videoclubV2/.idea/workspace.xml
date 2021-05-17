@@ -15,8 +15,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4fd270d1-5f99-4be7-960b-6f4e02791cf2" name="Default Changelist" comment="videoclubV2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/components/nav/nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/nav/nav.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/pelis-form/pelis-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/pelis-form/pelis-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/pelis-form/pelis-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/pelis-form/pelis-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/pelis-list/pelis-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/pelis-list/pelis-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/pelis-list/pelis-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/pelis-list/pelis-list.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +50,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/assets" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="D:\ANGULAR\videoclubV2\client\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -62,7 +66,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620898975693</updated>
-      <workItem from="1620898976771" duration="9131000" />
+      <workItem from="1620898976771" duration="9247000" />
+      <workItem from="1621244401326" duration="5885000" />
     </task>
     <task id="LOCAL-00001" summary="videoclubV2.iml">
       <created>1620899501863</created>
@@ -92,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620907652192</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="videoclubV2">
+      <created>1620908256511</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620908256511</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +120,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="videoclubV2.iml" />
@@ -135,14 +148,14 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="74" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1620899667093" />
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1620907664812">
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1620908260711">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1620907664812" />
-    <state x="537" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620907513833">
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1620908260711" />
+    <state x="537" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620908245582">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="537" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.860@0.0.1440.860" timestamp="1620907513833" />
+    <state x="537" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.860@0.0.1440.860" timestamp="1620908245582" />
     <state x="518" y="331" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1620899937988">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

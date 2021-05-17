@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, HostBinding} from '@angular/core';
 
 import { PeliculasService } from '../../services/peliculas.service'
 import {Pelis} from "../../models/pelis";
@@ -9,6 +9,8 @@ import {Pelis} from "../../models/pelis";
   styleUrls: ['./pelis-list.component.css']
 })
 export class PelisListComponent implements OnInit {
+
+  @HostBinding('class') classes= 'row';
 
   pelis: any = [];
 
