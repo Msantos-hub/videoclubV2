@@ -30,6 +30,8 @@ export class PelisFormComponent implements OnInit {
     precioAlquiler: 0
   }
 
+  edit:boolean = false;
+
   constructor( private peliculasService:PeliculasService, private router:Router, private activatedRoute:ActivatedRoute) { }
 
   ngOnInit(): void {
@@ -38,6 +40,7 @@ export class PelisFormComponent implements OnInit {
       this.peliculasService.getPelis(params.id).subscribe(
         res =>{ console.log(res);
           this.peli = res;
+          this.edit = true;
         }
       )
     }
