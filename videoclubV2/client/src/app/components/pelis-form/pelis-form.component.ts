@@ -1,6 +1,9 @@
-import {Component, OnInit} from '@angular/core';
-import {Pelis} from "../../models/pelis";
-import { PeliculasService } from "../../services/peliculas.service";
+import {Component, HostBinding, OnInit} from '@angular/core';
+import {Pelis} from '../../models/pelis';
+import { PeliculasService } from '../../services/peliculas.service';
+import { Router,ActivatedRoute } from '@angular/router';
+
+
 
 @Component({
   selector: 'app-pelis-form',
@@ -8,6 +11,7 @@ import { PeliculasService } from "../../services/peliculas.service";
   styleUrls: ['./pelis-form.component.css']
 })
 export class PelisFormComponent implements OnInit {
+  @HostBinding('class') classes = 'row';
 
   peli: Pelis = {
     codPelicula: 0,
@@ -26,9 +30,17 @@ export class PelisFormComponent implements OnInit {
     precioAlquiler: 0
   }
 
-  constructor( private peliculasService:PeliculasService ) { }
+  constructor( private peliculasService:PeliculasService, private router:Router, private activatedRoute:ActivatedRoute) { }
 
   ngOnInit(): void {
+    const params = this.activatedRoute.snapshot.params;
+    if(params.id){
+      this.peliculasService.getPelis(params.id).subscribe(
+        res =>{ console.log(res);
+          this.peli = res;
+        }
+      )
+    }
   }
 
   guardarPelicula(){
@@ -36,7 +48,8 @@ export class PelisFormComponent implements OnInit {
 
     this.peliculasService.savePeli(this.peli).subscribe(
       res => {
-
+          console.log(res);
+          this.router.navigate(['/pelis'])
       },
       err => console.error(err)
     )

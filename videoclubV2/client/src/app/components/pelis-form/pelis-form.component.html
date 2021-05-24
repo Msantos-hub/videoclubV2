@@ -4,37 +4,37 @@
       <form>
         <h4>Añadir Peliculas</h4>
         <div class="form-group">
-          <input type="text" name="codPelicula" [(ngModel)]="peli.codPelicula" placeholder="codigo Pelicula" class="form-control">
+          <input type="text" name="codPelicula" [(ngModel)]="peli.codPelicula" placeholder="Codigo Pelicula" class="form-control">
         </div>
         <div class="form-group">
-          <input type="text" name="title"[(ngModel)]="peli.titulo"  placeholder="titulo" class="form-control">
+          <input type="text" name="title"[(ngModel)]="peli.titulo"  placeholder="Titulo" class="form-control">
         </div>
         <div class="form-group">
-          <input type="text" name="anio" [(ngModel)]="peli.anio" placeholder="año" class="form-control">
+          <input type="text" name="anio" [(ngModel)]="peli.anio" placeholder="Año" class="form-control">
         </div>
         <div class="form-group">
           <input type="text" name="duracion" [(ngModel)]="peli.duracion" placeholder="Duracion" class="form-control">
         </div>
         <div class="form-group">
-          <input type="text" name="pais" [(ngModel)]="peli.pais" placeholder="pais" class="form-control">
+          <input type="text" name="pais" [(ngModel)]="peli.pais" placeholder="Pais" class="form-control">
         </div>
         <div class="form-group">
-          <input type="text" name="director" [(ngModel)]="peli.director" placeholder="director" class="form-control">
+          <input type="text" name="director" [(ngModel)]="peli.director" placeholder="Director" class="form-control">
         </div>
         <div class="form-group">
-          <input type="text" name="guion" [(ngModel)]="peli.guion" placeholder="guion" class="form-control">
+          <input type="text" name="guion" [(ngModel)]="peli.guion" placeholder="Guion" class="form-control">
         </div>
         <div class="form-group">
-          <input type="text" name="productor" [(ngModel)]="peli.productor" placeholder="productor" class="form-control">
+          <input type="text" name="productor" [(ngModel)]="peli.productor" placeholder="Productor" class="form-control">
         </div>
         <div class="form-group">
-          <input type="text" name="genero" [(ngModel)]="peli.genero" placeholder="genero" class="form-control">
+          <input type="text" name="genero" [(ngModel)]="peli.genero" placeholder="Genero" class="form-control">
         </div>
         <div class="form-group">
-          <input type="text" name="portada" [(ngModel)]="peli.portada" placeholder="portada" class="form-control">
+          <input type="text" name="portada" [(ngModel)]="peli.portada" placeholder="Portada" class="form-control">
         </div>
         <div class="form-group">
-          <input type="text" name="sinopsis" [(ngModel)]="peli.sinopsis" placeholder="sinopsis" class="form-control">
+          <textarea name="sinopsis" [(ngModel)]="peli.sinopsis" placeholder="Sinopsis" class="form-control"></textarea>
         </div>
         <div class="form-group">
           <input type="text" name="fechaLanzamiento" [(ngModel)]="peli.fechaLanzamiento" placeholder="Fecha de lanzamiento" class="form-control">
@@ -45,26 +45,26 @@
         <div class="form-group">
           <input type="text" name="precioAlquiler" [(ngModel)]="peli.precioAlquiler" placeholder="Precio de alquiler" class="form-control">
         </div>
-        <button class="btn btn-success btn-block" (click)="guardarPelicula">Guardar</button>
+        <button class="btn btn-success btn-block" (click)="guardarPelicula()">Guardar</button>
       </form>
     </div>
   </div>
 </div>
 <div class="col-md-4">
   <div class=" card card-body text-center">
-      <img [src]="peli.portada == '' ? './assets/caratulas/NoImage.jpg': peli.portada" class="card-img-top">
-    <h3>{{peli.codPelicula}}. {{peli.titulo}}</h3>
-    <p>{{peli.anio}}</p>
-    <p>{{peli.duracion}}</p>
-    <p>{{peli.pais}}</p>
-    <p>{{peli.director}}</p>
-    <p>{{peli.guion}}</p>
-    <p>{{peli.productor}}</p>
-    <p>{{peli.sinopsis}}</p>
-    <p>{{peli.sinopsis}}</p>
-    <p>{{peli.sinopsis}}</p>
-    <p>{{peli.sinopsis}}</p>
-    <p>{{peli.sinopsis}}</p>
-    <p>{{peli.sinopsis}}</p>
+    <img [src]="peli.portada == '' ? './assets/caratulas/NoImage.jpg': peli.portada" class="card-img-top">
+    <h3>{{peli.codPelicula == 0 ? 'Codigo Pelicula' : peli.codPelicula}}º</h3>
+    <h5>{{peli.titulo == '' ? 'Titulo' : peli.titulo}}</h5>
+    <p>{{peli.anio == '' ? 'Año' : peli.titulo}}</p>
+    <p>{{peli.duracion == 0 ? 'Duracion' : peli.duracion}}</p>
+    <p>{{peli.pais == '' ? 'Pais' : peli.pais}}</p>
+    <p>{{peli.director == '' ? ' Director' : peli.director}}</p>
+    <p>{{peli.guion == '' ? ' Guion' : peli.guion}}</p>
+    <p>{{peli.productor == '' ? ' Productor' : peli.productor}}</p>
+    <p>{{peli.genero == '' ? ' Genero' : peli.genero}}</p>
+    <p>{{peli.sinopsis == '' ? ' Sinopsis' : peli.sinopsis}}</p>
+    <p>{{peli.fechaLanzamiento == '' ? ' Fecha de estreno' : peli.fechaLanzamiento}}</p>
+    <p>{{peli.precioVenta == 0 ? '€ P.V.P' : peli.precioVenta}}</p>
+    <p>{{peli.precioAlquiler == 0 ? '€ Precio de alquiler' : peli.precioAlquiler}}</p>
   </div>
 </div>

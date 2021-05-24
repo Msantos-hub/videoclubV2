@@ -2,14 +2,14 @@
   <div class="card text-center">
     <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
       {{Peli.titulo}}
-      <button class="btn btn-danger">
+      <button class="btn btn-danger" (click)="deletePeli(Peli.id)">
         <i class="far fa-trash-alt"></i>
       </button>
     </div>
     <img src="./assets/caratulas/{{Peli.portada}}" class="card-image-top">
     <div class="card-body">
       <p>{{Peli.sinopsis}}</p>
-      <a href="" class="btn btn-info btn-block"> Editar Pelicula</a>
+      <a href="" class="btn btn-info btn-block" routerlink="['/pelis/modificar', Peli.id ]"> Editar Pelicula</a>
     </div>
   </div>
 </div>

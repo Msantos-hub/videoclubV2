@@ -16,7 +16,11 @@ const routes: Routes = [
     component: PelisListComponent
   },
   {
-    path: 'pelis/modificar',
+    path: 'pelis/add',
+    component: PelisFormComponent
+  },
+  {
+    path: 'pelis/modificar/:id',
     component: PelisFormComponent
   }
 

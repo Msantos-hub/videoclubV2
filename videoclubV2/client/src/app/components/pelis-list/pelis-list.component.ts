@@ -1,7 +1,7 @@
 import {Component, OnInit, HostBinding} from '@angular/core';
 
 import { PeliculasService } from '../../services/peliculas.service'
-import {Pelis} from "../../models/pelis";
+import {Pelis} from '../../models/pelis';
 
 @Component({
   selector: 'app-pelis-list',
@@ -19,6 +19,10 @@ export class PelisListComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.getPelis();
+  }
+
+  getPelis(){
     this.peliculasService.getPelis().subscribe(
       res => {
         this.pelis=res;
@@ -27,4 +31,13 @@ export class PelisListComponent implements OnInit {
     )
   }
 
+  deletePeli(id:string){
+    this.peliculasService.deletePeli(id).subscribe(
+      res => {
+       console.log(res);
+       this.getPelis();
+      },
+      err => console.log(err)
+    )
+  }
 }
