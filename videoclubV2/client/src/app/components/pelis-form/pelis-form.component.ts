@@ -58,4 +58,8 @@ export class PelisFormComponent implements OnInit {
     )
 }
 
+  updatePeli(){
+    this.peliculasService.updatePeli(this.peli.codPelicula, this.peli.titulo, )
+  }
+
 }
