@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
-import { Pelis } from '../models/pelis';
+import { Peliculas } from '../models/pelis';
 import {Observable} from "rxjs";
 
 @Injectable({
@@ -9,26 +8,26 @@ import {Observable} from "rxjs";
 })
 export class PeliculasService {
 
-  API_URL = 'http://localhost:3000/api'
+  API_URI = 'http://localhost:3000/api'
   constructor(private http: HttpClient) { }
 
-  getPelis(){
-    return this.http.get(`${this.API_URL}/peliculas`);
+  getPeliculas(){
+    return this.http.get(`${this.API_URI}/peliculas`);
   }
 
-  getOnePeli(id: string|number){
-    return this.http.get(`${this.API_URL}/peliculas/${id}`);
+  getPelicula(id: string|number){
+    return this.http.get(`${this.API_URI}/peliculas/${id}`);
   }
-  savePeli(peli:Pelis){
-    return this.http.post(`${this.API_URL}/peliculas`, peli);
-  }
-
-  deletePeli(id: string){
-    return this.http.delete(`${this.API_URL}/pelis/${id}`);
+  savePelicula(peli:Peliculas){
+    return this.http.post(`${this.API_URI}/peliculas`, peli);
   }
 
-  updatePeli(id: string | number, updatePeli: Pelis): Observable<Pelis> {
-    return this.http.put(`${this.API_URL}/pelis/${id}`, updatePeli);
+  deletePelicula(id: string | number){
+    return this.http.delete(`${this.API_URI}/peliculas/${id}`);
+  }
+
+  updatePelicula(id: string | undefined, updatePeli: Peliculas): Observable<Peliculas> {
+    return this.http.put(`${this.API_URI}/peliculas/${id}`, updatePeli);
   }
 
 }

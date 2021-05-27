@@ -1,7 +1,7 @@
 import {Component, OnInit, HostBinding} from '@angular/core';
 
 import { PeliculasService } from '../../services/peliculas.service'
-import {Pelis} from '../../models/pelis';
+import {Peliculas} from '../../models/pelis';
 
 @Component({
   selector: 'app-pelis-list',
@@ -12,30 +12,30 @@ export class PelisListComponent implements OnInit {
 
   @HostBinding('class') classes= 'row';
 
-  pelis: any = [];
+  peliculas: any = [];
 
   constructor(private peliculasService: PeliculasService) {
 
   }
 
   ngOnInit(): void {
-    this.getPelis();
+    this.getPeliculas();
   }
 
-  getPelis(){
-    this.peliculasService.getPelis().subscribe(
+  getPeliculas(){
+    this.peliculasService.getPeliculas().subscribe(
       res => {
-        this.pelis=res;
+        this.peliculas=res;
       },
       err => console.log(err)
     )
   }
 
-  deletePeli(id:string){
-    this.peliculasService.deletePeli(id).subscribe(
+  deletePelicula(id:string){
+    this.peliculasService.deletePelicula(id).subscribe(
       res => {
        console.log(res);
-       this.getPelis();
+       this.getPeliculas  ();
       },
       err => console.log(err)
     )

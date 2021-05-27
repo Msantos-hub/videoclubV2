@@ -1,5 +1,5 @@
-import {Component, HostBinding, OnInit} from '@angular/core';
-import {Pelis} from '../../models/pelis';
+import { Component, OnInit, HostBinding } from '@angular/core';
+import { Peliculas } from '../../models/pelis';
 import { PeliculasService } from '../../services/peliculas.service';
 import { Router,ActivatedRoute } from '@angular/router';
 
@@ -13,7 +13,7 @@ import { Router,ActivatedRoute } from '@angular/router';
 export class PelisFormComponent implements OnInit {
   @HostBinding('class') classes = 'row';
 
-  peli: Pelis = {
+  peli: Peliculas = {
     codPelicula: 0,
     titulo: '',
     anio: '',
@@ -30,41 +30,42 @@ export class PelisFormComponent implements OnInit {
     precioAlquiler: 0
   }
 
-  edit = false;
+  edit: boolean = false;
 
-  constructor(private peliculasService:PeliculasService, private router:Router, private activatedRoute:ActivatedRoute) { }
+  constructor(private peliculasService: PeliculasService, private router:Router, private activatedRoute:ActivatedRoute) { }
 
   ngOnInit(): void {
-    // const params = this.activatedRoute.snapshot.params;
-    // if(params.id){
-    //   this.peliculasService.getPelis(params.id).subscribe(
-    //     res =>{ console.log(res);
-    //       this.peli = res;
-    //       this.edit = true;
-    //     }
-    //   )
-    // }
+    const params = this.activatedRoute.snapshot.params;
+    if(params.id){
+      this.peliculasService.getPelicula(params.id).subscribe(
+        res =>{ console.log(res);
+          this.peli = res;
+          this.edit = true;
+        }
+      )
+    }
   }
 
   guardarPelicula(){
     delete this.peli.codPelicula;
 
-    this.peliculasService.savePeli(this.peli).subscribe(
+    this.peliculasService.savePelicula(this.peli).subscribe(
       res => {
           console.log(res);
-          this.router.navigate(['/pelis'])
+          this.router.navigate(['/peliculas'])
       },
       err => console.error(err)
     )
 }
 
   updatePeli(){
-      // this.peliculasService.updatePeli(this.peli.codPelicula, this.peli).subscribe(
-      //   res =>{
-      //     console.log(res);
-      //   },
-      //   err=> console.log(err)
-      // )
+      this.peliculasService.updatePelicula(this.peli.titulo, this.peli).subscribe(
+        res =>{
+          console.log(res);
+          this.router.navigate(['/peliculas'])
+        },
+        err=> console.log(err)
+      )
   }
 
 }

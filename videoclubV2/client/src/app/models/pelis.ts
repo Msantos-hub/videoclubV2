@@ -1,5 +1,5 @@
-export  interface Pelis{
-  codPelicula?: string | number;
+export  interface Peliculas{
+  codPelicula?: number;
   titulo?: string;
   anio?: string;
   duracion?: number;

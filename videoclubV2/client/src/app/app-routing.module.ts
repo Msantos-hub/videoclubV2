@@ -8,19 +8,19 @@ import { PelisFormComponent} from './components/pelis-form/pelis-form.component'
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/pelis',
+    redirectTo: '/peliculas',
     pathMatch:'full'
   },
   {
-    path: 'pelis',
+    path: 'peliculas',
     component: PelisListComponent
   },
   {
-    path: 'pelis/modificar',
+    path: 'peliculas/add',
     component: PelisFormComponent
   },
   {
-    path: 'pelis/modificar/:id',
+    path: 'peliculas/modificar/:id',
     component: PelisFormComponent
   }
 
