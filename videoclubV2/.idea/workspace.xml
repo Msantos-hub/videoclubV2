@@ -14,8 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fd270d1-5f99-4be7-960b-6f4e02791cf2" name="Default Changelist" comment="videoclubV2">
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/pelis-form/pelis-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/pelis-form/pelis-form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/pelis-form/pelis-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/pelis-form/pelis-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/pelis-list/pelis-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/pelis-list/pelis-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/pelis-list/pelis-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/pelis-list/pelis-list.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +33,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1sTaLGrlYfO8oB7aP08qOD9jcwJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -66,7 +69,7 @@
       <workItem from="1621326721134" duration="6000" />
       <workItem from="1621849214516" duration="6239000" />
       <workItem from="1622100111070" duration="3635000" />
-      <workItem from="1622108456194" duration="2569000" />
+      <workItem from="1622108456194" duration="5091000" />
     </task>
     <task id="LOCAL-00001" summary="videoclubV2.iml">
       <created>1620899501863</created>
@@ -145,7 +148,35 @@
       <option name="project" value="LOCAL" />
       <updated>1622110951244</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="videoclubV2">
+      <created>1622111054199</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1622111054199</updated>
+    </task>
+    <task id="LOCAL-00013" summary="videoclubV2">
+      <created>1622111109178</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1622111109178</updated>
+    </task>
+    <task id="LOCAL-00014" summary="videoclubV2">
+      <created>1622111118514</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1622111118514</updated>
+    </task>
+    <task id="LOCAL-00015" summary="videoclubV2">
+      <created>1622111263805</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1622111263805</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,14 +220,14 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="74" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1620899667093" />
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1622110952898">
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1622111265177">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1622110952898" />
-    <state x="537" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620908245582">
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1622111265177" />
+    <state x="537" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622112463783">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="537" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.860@0.0.1440.860" timestamp="1620908245582" />
+    <state x="537" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.860@0.0.1440.860" timestamp="1622112463783" />
     <state x="518" y="331" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1620899937988">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

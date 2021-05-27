@@ -1,5 +1,4 @@
 import {Component, OnInit, HostBinding} from '@angular/core';
-
 import { PeliculasService } from '../../services/peliculas.service'
 import {Peliculas} from '../../models/pelis';
 
@@ -18,13 +17,14 @@ export class PelisListComponent implements OnInit {
 
   }
 
-  ngOnInit(): void {
+    ngOnInit() {
     this.getPeliculas();
   }
 
   getPeliculas(){
     this.peliculasService.getPeliculas().subscribe(
       res => {
+        console.log(res)
         this.peliculas=res;
       },
       err => console.log(err)
