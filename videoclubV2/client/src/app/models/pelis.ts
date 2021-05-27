@@ -1,5 +1,5 @@
 export  interface Pelis{
-  codPelicula?: number;
+  codPelicula?: string | number;
   titulo?: string;
   anio?: string;
   duracion?: number;

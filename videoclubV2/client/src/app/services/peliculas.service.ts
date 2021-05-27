@@ -16,7 +16,7 @@ export class PeliculasService {
     return this.http.get(`${this.API_URL}/peliculas`);
   }
 
-  getOnePeli(id:string){
+  getOnePeli(id: string|number){
     return this.http.get(`${this.API_URL}/peliculas/${id}`);
   }
   savePeli(peli:Pelis){
@@ -27,7 +27,7 @@ export class PeliculasService {
     return this.http.delete(`${this.API_URL}/pelis/${id}`);
   }
 
-  updatePeli(id: string, updatePeli: Pelis): Observable<Pelis> {
+  updatePeli(id: string | number, updatePeli: Pelis): Observable<Pelis> {
     return this.http.put(`${this.API_URL}/pelis/${id}`, updatePeli);
   }
 

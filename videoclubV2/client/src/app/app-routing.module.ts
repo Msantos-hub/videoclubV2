@@ -16,7 +16,7 @@ const routes: Routes = [
     component: PelisListComponent
   },
   {
-    path: 'pelis/add',
+    path: 'pelis/modificar',
     component: PelisFormComponent
   },
   {

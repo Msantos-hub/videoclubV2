@@ -30,20 +30,20 @@ export class PelisFormComponent implements OnInit {
     precioAlquiler: 0
   }
 
-  edit:boolean = false;
+  edit = false;
 
-  constructor( private peliculasService:PeliculasService, private router:Router, private activatedRoute:ActivatedRoute) { }
+  constructor(private peliculasService:PeliculasService, private router:Router, private activatedRoute:ActivatedRoute) { }
 
   ngOnInit(): void {
-    const params = this.activatedRoute.snapshot.params;
-    if(params.id){
-      this.peliculasService.getPelis(params.id).subscribe(
-        res =>{ console.log(res);
-          this.peli = res;
-          this.edit = true;
-        }
-      )
-    }
+    // const params = this.activatedRoute.snapshot.params;
+    // if(params.id){
+    //   this.peliculasService.getPelis(params.id).subscribe(
+    //     res =>{ console.log(res);
+    //       this.peli = res;
+    //       this.edit = true;
+    //     }
+    //   )
+    // }
   }
 
   guardarPelicula(){
@@ -59,7 +59,12 @@ export class PelisFormComponent implements OnInit {
 }
 
   updatePeli(){
-    this.peliculasService.updatePeli(this.peli.codPelicula, this.peli.titulo, )
+      // this.peliculasService.updatePeli(this.peli.codPelicula, this.peli).subscribe(
+      //   res =>{
+      //     console.log(res);
+      //   },
+      //   err=> console.log(err)
+      // )
   }
 
 }
