@@ -1,6 +1,5 @@
 import {Component, OnInit, HostBinding} from '@angular/core';
-import { PeliculasService } from '../../services/peliculas.service'
-import {Peliculas} from '../../models/pelis';
+import { PeliculasService } from '../../services/peliculas.service';
 
 @Component({
   selector: 'app-pelis-list',
