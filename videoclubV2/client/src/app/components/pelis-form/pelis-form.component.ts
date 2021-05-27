@@ -58,7 +58,7 @@ export class PelisFormComponent implements OnInit {
     )
 }
 
-  updatePeli(){
+  updatePelicula(){
       this.peliculasService.updatePelicula(this.peli.titulo, this.peli).subscribe(
         res =>{
           console.log(res);
