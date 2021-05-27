@@ -11,7 +11,7 @@ class PelisRoutes{
 
     config(): void{
         this.router.get('/', pelisController.list);
-        this.router.get('/', pelisController.getOne)
+        this.router.get('/:id', pelisController.getOne)
         this.router.post('/', pelisController.create);
         this.router.delete('/:id',pelisController.delete);
         this.router.put('/:id',pelisController.update);

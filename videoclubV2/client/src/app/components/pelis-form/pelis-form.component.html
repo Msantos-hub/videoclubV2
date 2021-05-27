@@ -52,7 +52,7 @@
 </div>
 <div class="col-md-4">
   <div class=" card card-body text-center">
-    <img [src]="peli.portada == '' ? './assets/caratulas/NoImage.jpg': peli.portada" class="card-img-top">
+    <img [src]="peli.portada == '' ? './assets/caratulas/NoImage.jpg': './assets/caratulas/'+peli.portada" class="card-img-top">
     <h3>{{peli.codPelicula == 0 ? 'Codigo Pelicula' : peli.codPelicula}}º</h3>
     <h5>{{peli.titulo == '' ? 'Titulo' : peli.titulo}}</h5>
     <p>{{peli.anio == '' ? 'Año' : peli.titulo}}</p>

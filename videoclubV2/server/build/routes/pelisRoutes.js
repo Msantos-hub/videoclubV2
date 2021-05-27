@@ -12,7 +12,7 @@ class PelisRoutes {
     }
     config() {
         this.router.get('/', pelisController_1.default.list);
-        this.router.get('/', pelisController_1.default.getOne);
+        this.router.get('/:id', pelisController_1.default.getOne);
         this.router.post('/', pelisController_1.default.create);
         this.router.delete('/:id', pelisController_1.default.delete);
         this.router.put('/:id', pelisController_1.default.update);
