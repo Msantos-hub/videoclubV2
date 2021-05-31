@@ -32,9 +32,9 @@ export class PelisFormComponent implements OnInit {
 
   edit: boolean = false;
 
-  constructor(private peliculasService: PeliculasService, private router:Router, private activatedRoute:ActivatedRoute) { }
+  constructor(private peliculasService: PeliculasService, private router: Router, private activatedRoute: ActivatedRoute) { }
 
-  ngOnInit(): void {
+  ngOnInit(){
     const params = this.activatedRoute.snapshot.params;
     console.log(params)
     if(params.id){
@@ -47,9 +47,8 @@ export class PelisFormComponent implements OnInit {
     }
   }
 
-  guardarPelicula(){
+  savePelicula(){
     delete this.peli.codPelicula;
-
     this.peliculasService.savePelicula(this.peli).subscribe(
       res => {
           console.log(res);
@@ -60,7 +59,7 @@ export class PelisFormComponent implements OnInit {
 }
 
   updatePelicula(){
-      this.peliculasService.updatePelicula(this.peli.titulo, this.peli).subscribe(
+      this.peliculasService.updatePelicula(this.peli.codPelicula, this.peli).subscribe(
         res =>{
           console.log(res);
           this.router.navigate(['/peliculas'])

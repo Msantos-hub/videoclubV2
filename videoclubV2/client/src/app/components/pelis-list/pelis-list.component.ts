@@ -17,7 +17,12 @@ export class PelisListComponent implements OnInit {
   }
 
     ngOnInit() {
-    this.getPeliculas();
+    this.peliculasService.getPeliculas().subscribe(
+      res => {
+        this.peliculas = res;
+      },
+      err => console.error(err)
+    );
   }
 
   getPeliculas(){

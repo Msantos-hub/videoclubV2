@@ -4,10 +4,10 @@
       <form>
         <h4>Añadir Peliculas</h4>
         <div class="form-group">
-          <input type="text" name="codPelicula" [(ngModel)]="peli.codPelicula" placeholder="Codigo Pelicula" class="form-control">
+          <input type="text" name="codPelicula" [(ngModel)]="peli.codPelicula" placeholder="Codigo Pelicula" class="form-control"   >
         </div>
         <div class="form-group">
-          <input type="text" name="title"[(ngModel)]="peli.titulo"  placeholder="Titulo" class="form-control">
+          <input type="text" name="title" [(ngModel)]="peli.titulo"  placeholder="Titulo" class="form-control" autofocus>
         </div>
         <div class="form-group">
           <input type="text" name="anio" [(ngModel)]="peli.anio" placeholder="Año" class="form-control">
@@ -45,7 +45,9 @@
         <div class="form-group">
           <input type="text" name="precioAlquiler" [(ngModel)]="peli.precioAlquiler" placeholder="Precio de alquiler" class="form-control">
         </div>
-        <button class="btn btn-success btn-block" (click)="edit ? updatePelicula() : guardarPelicula()">Guardar</button>
+        <button class="btn btn-success btn-block" (click)="edit ? updatePelicula() : savePelicula()">
+          Guardar
+        </button>
       </form>
     </div>
   </div>

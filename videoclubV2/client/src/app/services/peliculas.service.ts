@@ -15,10 +15,11 @@ export class PeliculasService {
     return this.http.get(`${this.API_URI}/peliculas`);
   }
 
-  getPelicula(id: string|number){
+  getPelicula(id: string | number){
     return this.http.get(`${this.API_URI}/peliculas/${id}`);
   }
-  savePelicula(peli:Peliculas){
+
+  savePelicula(peli: Peliculas){
     return this.http.post(`${this.API_URI}/peliculas`, peli);
   }
 
@@ -26,8 +27,8 @@ export class PeliculasService {
     return this.http.delete(`${this.API_URI}/peliculas/${id}`);
   }
 
-  updatePelicula(id: string | undefined, updatePeli: Peliculas): Observable<Peliculas> {
-    return this.http.put(`${this.API_URI}/peliculas/${id}`, updatePeli);
+    updatePelicula(id: number | undefined, updatePelicula: Peliculas): Observable<Peliculas> {
+    return this.http.put(`${this.API_URI}/peliculas/${id}`, updatePelicula);
   }
 
 }
