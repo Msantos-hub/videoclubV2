@@ -8,8 +8,9 @@
     </div>
     <img src="./assets/caratulas/{{Peli.portada}}" class="card-image-top">
     <div class="card-body">
-      <p>{{Peli.sinopsis}}</p>
+      <p>{{Peli.sinopsis | slice:0:175}}...</p>
       <a [routerLink]="['modificar',Peli.codPelicula]" class="btn btn-info btn-block"> Editar Pelicula</a>
+      <a [routerLink]="[]" class="btn btn-info btn-block">Ver Informacion</a>
     </div>
   </div>
 </div>

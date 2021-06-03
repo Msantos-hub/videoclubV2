@@ -11,13 +11,15 @@ import { PelisFormComponent } from './components/pelis-form/pelis-form.component
 import { PelisListComponent } from './components/pelis-list/pelis-list.component';
 
 import { PeliculasService } from './services/peliculas.service';
+import { PelisInfoComponent } from './components/pelis-info/pelis-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     PelisFormComponent,
-    PelisListComponent
+    PelisListComponent,
+    PelisInfoComponent
   ],
   imports: [
     BrowserModule,
