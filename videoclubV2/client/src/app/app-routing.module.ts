@@ -21,11 +21,11 @@ const routes: Routes = [
     component: PelisFormComponent
   },
   {
-    path: 'peliculas/modificar/:id',
+    path: 'peliculas/edit/:id',
     component: PelisFormComponent
   },
   {
-    path: 'peliculas/vista/:id',
+    path: 'peliculas/view/:id',
     component: PelisInfoComponent
   }
 
