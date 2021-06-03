@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { PelisListComponent } from './components/pelis-list/pelis-list.component';
 import { PelisFormComponent} from './components/pelis-form/pelis-form.component';
+import { PelisInfoComponent} from './components/pelis-info/pelis-info.component';
 
 
 const routes: Routes = [
@@ -22,7 +23,12 @@ const routes: Routes = [
   {
     path: 'peliculas/modificar/:id',
     component: PelisFormComponent
+  },
+  {
+    path: 'peliculas/vista/:id',
+    component: PelisInfoComponent
   }
+
 
 ];
 
