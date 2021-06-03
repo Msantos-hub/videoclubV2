@@ -50,12 +50,11 @@ export class PelisFormComponent implements OnInit {
   savePelicula(){
     delete this.peli.codPelicula;
     this.peliculasService.savePelicula(this.peli).subscribe(
-      res => {
-          console.log(res);
-          this.router.navigate(['/peliculas'])
+      res=>{
+        console.log(res);
       },
-      err => console.error(err)
-    )
+      err => console.log(err)
+    );
 }
 
   updatePelicula(){

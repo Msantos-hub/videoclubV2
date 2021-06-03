@@ -39,7 +39,7 @@ export class PelisListComponent implements OnInit {
     this.peliculasService.deletePelicula(id).subscribe(
       res => {
        console.log(res);
-       this.getPeliculas  ();
+       this.getPeliculas();
       },
       err => console.log(err)
     )

@@ -12,7 +12,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const express_1 = require("express");
 const database_1 = __importDefault(require("../database"));
 class PelisController {
     list(req, res) {
@@ -25,15 +24,16 @@ class PelisController {
         return __awaiter(this, void 0, void 0, function* () {
             const { id } = req.params;
             const pelis = yield database_1.default.query('SELECT * FROM peliculas WHERE codPelicula = ?', [id]);
+            console.log(pelis.length);
             if (pelis.length > 0) {
                 return res.json(pelis[0]);
             }
-            res.status(404).json({ text: 'Pelicula encontrada ' });
+            res.status(404).json({ text: 'Pelicula no encontrada' });
         });
     }
     create(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
-            yield database_1.default.query('INSERT INTO peliculas set ?', [express_1.request.body]);
+            const result = yield database_1.default.query('INSERT INTO peliculas set ?', [req.body]);
             res.json({ message: 'pelicula guardada' });
         });
     }
@@ -47,7 +47,8 @@ class PelisController {
     update(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
             const { id } = req.params;
-            yield database_1.default.query('UPDATE peliculas set ? WHERE id=?', [req.body, id]);
+            const oldPeli = req.body;
+            yield database_1.default.query('UPDATE peliculas set ? WHERE id= ?', [req.body, id]);
             res.json({ message: 'La pelicula fue actualizada' });
         });
     }

@@ -1,16 +1,25 @@
-<div class=" card card-body text-center" >
-  <img src="./assets/caratulas/{{peli.portada}}" class="card-image-top">
-  <h3>Codigo de la pelicula: {{peli.codPelicula}}</h3>
-  <h5>Titulo: {{peli.titulo}}</h5>
-  <p>Año: {{peli.anio}}</p>
-  <p>Duracion: {{peli.duracion}}</p>
-  <p>Pais: {{peli.pais}}</p>
-  <p>DIrector: {{peli.director}}</p>
-  <p>Guinista: {{peli.guion}}</p>
-  <p>Productor: {{peli.productor}}</p>
-  <p>Genero: {{peli.genero}}</p>
-  <p>Sinopsis: {{peli.sinopsis}}</p>
-  <p>Fecha de lanzamiento: {{peli.fechaLanzamiento}}</p>
-  <p>Precio de venta: {{peli.precioVenta}}</p>
-  <p>Precio de alquiler: {{peli.precioAlquiler}}</p>
-</div>
+    <div class="col-md-6">
+      <img src="./assets/caratulas/{{peli.portada}}" class="card-image-top">
+    </div>
+    <div id="info"  class="col-md-6">
+      <h3>Codigo de la pelicula: {{peli.codPelicula}}</h3>
+      <h4>Titulo: {{peli.titulo}}</h4>
+      <h4>Año: {{peli.anio}}</h4>
+      <h4>Duracion: {{peli.duracion}}</h4>
+      <h4>Pais: {{peli.pais}}</h4>
+      <h4>DIrector: {{peli.director}}</h4>
+      <h4>Guinista: {{peli.guion}}</h4>
+      <h4>Productor: {{peli.productor}}</h4>
+      <h4>Genero: {{peli.genero}}</h4>
+      <h4>Fecha de lanzamiento: {{peli.fechaLanzamiento | date:'dd-mm-yyyy'}}</h4>
+      <h4>Precio de venta: {{peli.precioVenta}}</h4>
+      <h4>Precio de alquiler: {{peli.precioAlquiler}}</h4>
+      <button class="btn btn-info btn-block">Comprar</button>
+      <button class="btn btn-info btn-block">Alquilar</button>
+    </div>
+  <div id="sinopsis" class="col-12">
+    <h4>Sinopsis: </h4>
+    <p>
+     {{peli.sinopsis}}
+    </p>
+  </div>
