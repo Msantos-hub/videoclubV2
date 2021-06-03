@@ -52,6 +52,7 @@ export class PelisFormComponent implements OnInit {
     this.peliculasService.savePelicula(this.peli).subscribe(
       res=>{
         console.log(res);
+        this.router.navigate(['/peliculas']);
       },
       err => console.log(err)
     );
