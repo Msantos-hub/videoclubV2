@@ -36,13 +36,13 @@ export class PelisFormComponent implements OnInit {
 
   ngOnInit(){
     const params = this.activatedRoute.snapshot.params;
-    console.log(params)
     if(params.id){
       this.peliculasService.getPelicula(params.id).subscribe(
         res =>{ console.log(res);
           this.peli = res;
           this.edit = true;
-        }
+        },
+        err => console.log(err)
       )
     }
   }
