@@ -30,17 +30,19 @@ export class PelisFormComponent implements OnInit {
     precioAlquiler: 0
   }
 
-  edit: boolean = false;
+  edit: boolean=false;
 
   constructor(private peliculasService: PeliculasService, private router: Router, private activatedRoute: ActivatedRoute) { }
 
   ngOnInit(){
     const params = this.activatedRoute.snapshot.params;
     if(params.id){
-      this.peliculasService.getPelicula(params.id).subscribe(
-        res =>{ console.log(res);
-          this.peli = res;
-          this.edit = true;
+      this.peliculasService.getPelicula(params.id)
+        .subscribe(
+        res =>
+        {console.log(res);
+        this.peli=res;
+        this.edit=true;
         },
         err => console.log(err)
       )
@@ -59,13 +61,15 @@ export class PelisFormComponent implements OnInit {
 }
 
   updatePelicula(){
-      this.peliculasService.updatePelicula(this.peli.codPelicula, this.peli).subscribe(
-        res =>{
+      this.peliculasService.updatePelicula(this.peli.codPelicula, this.peli)
+        .subscribe(
+        res => {
           console.log(res);
           this.router.navigate(['/peliculas'])
         },
-        err=> console.log(err)
-      )
+        err => console.log(err)
+      );
   }
+
 
 }

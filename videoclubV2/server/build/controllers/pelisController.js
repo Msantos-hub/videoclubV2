@@ -48,7 +48,7 @@ class PelisController {
         return __awaiter(this, void 0, void 0, function* () {
             const { id } = req.params;
             const oldPeli = req.body;
-            yield database_1.default.query('UPDATE peliculas set ? WHERE id= ?', [req.body, id]);
+            yield database_1.default.query('UPDATE peliculas set ? WHERE codPelicula= ?', [req.body, id]);
             res.json({ message: 'La pelicula fue actualizada' });
         });
     }

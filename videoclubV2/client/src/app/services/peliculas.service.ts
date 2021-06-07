@@ -27,8 +27,8 @@ export class PeliculasService {
     return this.http.delete(`${this.API_URI}/peliculas/${id}`);
   }
 
-    updatePelicula(id: number | undefined, updatePelicula: Peliculas): Observable<Peliculas> {
-    return this.http.put(`${this.API_URI}/peliculas/${id}`, updatePelicula);
+    updatePelicula(id: number | undefined , update: Peliculas): Observable<Peliculas> {
+    return this.http.put(`${this.API_URI}/peliculas/${id}`, update);
   }
 
 }

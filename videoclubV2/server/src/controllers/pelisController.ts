@@ -33,7 +33,7 @@ class PelisController{
     public async update (req:Request, res:Response): Promise<void>{
         const { id } = req.params;
         const oldPeli = req.body;
-        await pool.query('UPDATE peliculas set ? WHERE id= ?', [req.body, id]);
+        await pool.query('UPDATE peliculas set ? WHERE codPelicula= ?', [req.body, id]);
         res.json({message: 'La pelicula fue actualizada'});
     }
 
