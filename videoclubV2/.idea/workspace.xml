@@ -15,7 +15,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4fd270d1-5f99-4be7-960b-6f4e02791cf2" name="Default Changelist" comment="videoclubV2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/pelis-form/pelis-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/pelis-form/pelis-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/nav/nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/nav/nav.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/pelis-list/pelis-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/pelis-list/pelis-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/pelis-list/pelis-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/pelis-list/pelis-list.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/services/peliculas.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/services/peliculas.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +74,8 @@
       <workItem from="1622108456194" duration="7282000" />
       <workItem from="1622454035395" duration="6340000" />
       <workItem from="1622713831902" duration="8824000" />
-      <workItem from="1623059060733" duration="2652000" />
+      <workItem from="1623059060733" duration="5854000" />
+      <workItem from="1623318322814" duration="2154000" />
     </task>
     <task id="LOCAL-00001" summary="videoclubV2.iml">
       <created>1620899501863</created>
@@ -248,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622722413867</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="videoclubV2">
+      <created>1623061969330</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1623061969330</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,10 +303,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="74" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1620899667093" />
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1622722415260">
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1623061971063">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1622722415260" />
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1623061971063" />
     <state x="537" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622112463783">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

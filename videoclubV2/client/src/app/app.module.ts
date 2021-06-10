@@ -12,6 +12,7 @@ import { PelisListComponent } from './components/pelis-list/pelis-list.component
 
 import { PeliculasService } from './services/peliculas.service';
 import { PelisInfoComponent } from './components/pelis-info/pelis-info.component';
+import { FilterPipe } from './pipe/filtro.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PelisInfoComponent } from './components/pelis-info/pelis-info.component
     NavComponent,
     PelisFormComponent,
     PelisListComponent,
-    PelisInfoComponent
+    PelisInfoComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
