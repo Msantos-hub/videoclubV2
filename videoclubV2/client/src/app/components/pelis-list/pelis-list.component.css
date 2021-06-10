@@ -5,3 +5,16 @@ img{
   width: 405.5px;
   height: 500px;
 }
+.azul{
+  background-color: #33658A;
+  width: 170px;
+}
+#margenA{
+  margin-right: 5px;
+}
+
+
+
+.margen{
+  margin-top: 30px;
+}

@@ -1,17 +1,18 @@
 nav{
-  background-color: #fd7e14;
+  background-color: #33658A;
   padding: 0px;
 }
 
 div{
   height: 60px;
+  padding-left: 0px;
 }
 
-h3{
-  font-style: italic;
-  font-weight: bold;
+img{
+  height: 60px;
+  width: 300px;
 }
 
 a{
-  color: black;
+  color: white;
 }

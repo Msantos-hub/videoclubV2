@@ -1,6 +1,6 @@
 import {Component, OnInit, HostBinding} from '@angular/core';
 import { PeliculasService } from '../../services/peliculas.service';
-import { FilterPipe } from '../../pipe/filtro.pipe';
+
 
 @Component({
   selector: 'app-pelis-list',
@@ -11,7 +11,8 @@ export class PelisListComponent implements OnInit {
 
   @HostBinding('class') classes= 'row';
 
-  filtro = '';
+  filterPeli='';
+
   peliculas: any = [];
 
   constructor(private peliculasService: PeliculasService) {
